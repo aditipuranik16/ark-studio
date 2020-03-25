@@ -1,15 +1,14 @@
-<!-- In this file you are going to write html code -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>arcStudio</title>
-    <link href="arcstudio.css" type="text/css" rel="stylesheet">
+    <link href="slider.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
-    <div id="imageDiv">
+    <header class="transparent_nav">
 
-        <div id="topBar">
+        <nav class="nav_bar">
 
             <table id="tblStripe">
                 <tr>
@@ -17,40 +16,40 @@
                         <img src="logo.png" class="logo" alt="Logo" />
                     </td>
                     <td>
-                        <ul class="navbar">
+                        <ul id="nav_list">
                             <li>
-                                <a href="#">Our Story</a>
+                                <a href="nav_item_1">Our Story</a>
                             </li>
                             <li>
-                                <a href="#">Products</a>
+                                <a href="nav_item_2">Products</a>
                             </li>
                             <li>
-                                <a href="#">Journals</a>
+                                <a href="nav_item_3">Journals</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="nav_item_4">Contact</a>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </table>
 
-        </div>
+        </nav>
 
-        <div id="bottomBar">
+        <section id="cta">
 
             <table id="tblStripeBottom">
                 <tr>
                     <td>
-                        <p class="pInfo">Have Project in mind? We would love to hear from you!</p>
+                        <p class="cta_text">Have Project in mind? We would love to hear from you!</p>
                     </td>
                     <td>
-                        <button class="btnGetInTouch">get in touch with us</button>
+                        <button class="cta_link">get in touch with us</button>
                     </td>
                 </tr>
             </table>
-        </div>
-    </div>
+        </section>
+    </header>
 
     <section class="services_wrapper">
 
@@ -213,6 +212,7 @@
         </div>
 
     </div>
+
     <p class="rights">2014 ARK Studio - All Rights Reserved</p>
     <br>
 </footer>
